@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: tomato;
+    padding: 2px 6px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 20px;
+    font-family: cursive;
+}
+
+#logo img {
+    height: 45px;
+    filter: invert(1);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 12px 12px;
+    color: white;
+}
+
+#navbar li a:hover {
+    background-color: white;
+    border-radius: 3px;
+    color: black;
+}
+/* .container{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 40px;
+    margin-right: 20px;
+    font-family: cursive;
+}
+.container img{
+    height: 45px;
+    filter: invert(1);
+} */
+#footer {
+    display: flex;
+    margin-bottom: 2px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

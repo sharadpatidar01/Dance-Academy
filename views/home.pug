@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+ 
+block style
+    style
+      include ../static/home.css
+
+block content
+    Section#introsection
+        div.big  Welcome to Sharad Dance Academy 
+        div.small  Eat Sleep Dance Repeat 
+
+    Section#missionsection
+        h1 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/a.png", )
+                div.card-content 
+                    p This is the Best Dance Academy of the Universe
+
+        div.card
+            h3 Dance the Way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/b.png", )
+                div.card-content 
+                    p This is the Best Dance Academy of the Universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/c.png", )
+                div.card-content 
+                    p This is the Best Dance Academy of the Universe
+
+    Section#sponsorsection
+        h1 Our Sponsor
+
+        div#sponsors
+            img(src="/static/img/apple.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/img/cococola.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/img/jaguar.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/img/mercedis benz.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/img/microsoft.png", alt="Sponsor logo", Class="spImages")
+
+

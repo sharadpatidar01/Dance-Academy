@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background: url("./static/img/contact bg.jpg")center/cover no-repeat;
+    background-color: rgba(197, 197, 197, 0.822);
+}
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    padding: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput {
+    width: 50%;
+    padding: 4px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    outline: none;
+}
+.btn{
+    width: 10%;
+    padding: 7px;
+    margin: 27px;
+    font-size: 20px;
+    background-color: tomato;
+    border: 1.8px solid black;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+.btn:hover{
+    background-color: red;
+}

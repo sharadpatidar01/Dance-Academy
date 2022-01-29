@@ -1,0 +1,63 @@
+//- index.pug ka dance website me koi kamm nhi hai but sirf mene is ko samjhne ke kiye rkha hai
+doctype html
+html
+  head    
+    style
+      include ../static/style.css
+  body
+    
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/logo.png", )
+                | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    Section#introsection
+        div.big  Welcome to Sharad Dance Academy 
+        div.small  Eat Sleep Dance Repeat 
+
+    Section#missionsection
+        h1 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/a.png", )
+                div.card-content 
+                    p This is the Best Dance Academy of the Universe
+
+        div.card
+            h3 Dance the Way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/b.png", )
+                div.card-content 
+                    p This is the Best Dance Academy of the Universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/c.png", )
+                div.card-content 
+                    p This is the Best Dance Academy of the Universe
+
+    Section#sponsorsection
+        h1 Our Sponsor
+
+        div#sponsors
+            img(src="/static/apple.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/cococola.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/jaguar.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/mercedis benz.png", alt="Sponsor logo", Class="spImages")
+            img(src="/static/microsoft.png", alt="Sponsor logo", Class="spImages")
+
+    footer#footer
+        | Copyright2020 © SharadDanceAcademy.com | All Right Reserved
+
+    script
+      include ../static/index.js
