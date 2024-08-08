@@ -1,6 +1,3 @@
-Here's a complete `README.md` file that you can copy and paste directly into your GitHub repository:
-
-```markdown
 # 🎶 Dance Academy Website
 
 Welcome to the **Dance Academy Website** project! This web application is designed for dance enthusiasts who want to connect with the academy, learn more about the services offered, and get in touch through an elegant and user-friendly interface.
@@ -15,29 +12,7 @@ Welcome to the **Dance Academy Website** project! This web application is design
 - **Static files** support for serving assets like images, CSS, and JS.
 - **Responsive design** to ensure the site looks great on all devices.
 
-## 📂 Project Structure
 
-Here's a brief overview of the project structure:
-
-```
-Dance-Academy/
-│
-├── static/                 # Static files (CSS, JS, Images)
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-├── views/                  # Pug templates for different pages
-│   ├── home.pug
-│   ├── about.pug
-│   ├── services.pug
-│   ├── class.pug
-│   └── contact.pug
-│
-├── app.js                  # Main application file
-├── package.json            # Node.js dependencies and scripts
-└── README.md               # Project documentation (this file)
-```
 
 ## 🛠️ Setup & Installation
 
@@ -87,14 +62,3 @@ Feel free to reach out for any questions or collaborations:
 - **LinkedIn**: [sharadpatidar_](https://linkedin.com/in/sharadpatidar_)
 
 **Thank you for visiting our project! We hope you enjoy your time with us.** 🕺💃
-```
-
-### Instructions:
-- **Replace the placeholders**:
-  - `https://example.com/dance-image.png`: Link to an actual image or logo related to your project.
-  - `https://github.com/yourusername/Dance-Academy.git`: Your actual GitHub repository link.
-  - `https://your-live-link.render.com`: The link to the live version of your project.
-  - `your.email@example.com`: Your email address.
-  - `https://linkedin.com/in/yourprofile`: Your LinkedIn profile link.
-
-Once you've updated the placeholders, this `README.md` will be ready for use in your GitHub repository!
