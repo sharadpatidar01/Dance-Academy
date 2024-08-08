@@ -3,7 +3,12 @@ const path = require("path");
 const app = express();
 const bodyparser = require("body-parser")
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/ContactDance', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://nayak25102000:IUOZowP3b2fgDHLx@danceacademy.cqvzd.mongodb.net/ContactDance?retryWrites=true&w=majority', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    })
+    .then(() => console.log('Connected to MongoDB Atlas'))
+    .catch(err => console.error('Error connecting to MongoDB Atlas', err));
 const { report } = require("process");
 const port = 8000;
 
@@ -22,6 +27,8 @@ const Contact = mongoose.model('Contact', ContactSchema);
 // EXPRESS SPECIFIC STUFF
 app.use('/static', express.static('static')) // For serving static files
 app.use(express.urlencoded())
+app.use(bodyparser.urlencoded({ extended: true }));
+
 
 // PUG SPECIFIC STUFF
 app.set('view engine', 'pug') // Set the template engine as pug
