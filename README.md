@@ -2,7 +2,7 @@
 
 Welcome to the **Dance Academy Website** project! This web application is designed for dance enthusiasts who want to connect with the academy, learn more about the services offered, and get in touch through an elegant and user-friendly interface.
 
-![Dance Academy](https://unsplash.com/photos/a-group-of-dancers-performing-on-a-stage-Maz6dVRkRKA) <!-- Replace this with an actual image URL -->
+![Dance Academy](https://github.com/sharadpatidar01/Dance-Academy/blob/master/static/img/bgintro.jpg) <!-- Replace this with an actual image URL -->
 
 ## 🚀 Features
 
